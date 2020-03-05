@@ -9,6 +9,7 @@ class Exercise5Handler():
         return True
 
     def getString(self):
+        #Can also use raw_input()
         self.strInput = input("Please enter a string: ")
         self.InputValidator(self.strInput)
     
