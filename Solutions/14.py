@@ -5,6 +5,7 @@ class Exercise14Handler():
     def upperLower(self):
         self.countDict = {"Upper":0,"Lower":0}
 
+        #Alternatively, could use isupper(),islower().
         for letter in self.inpStr:
             if letter.lower() == letter:
                 self.countDict["Lower"] += 1

@@ -15,9 +15,10 @@ class Exercise13Handler():
             elif letter.isalpha():
                 self.dictCount["Letters"] += 1
         
-        #print("Letters: " + str(self.dictCount["Letters"]))
-        #print("Digits: " + str(self.dictCount["Digits"]))
+        print("Letters: " + str(self.dictCount["Letters"]))
+        print("Digits: " + str(self.dictCount["Digits"]))
 
+        #Alternative method to print here.
         print("Letters", self.dictCount["Letters"])
 
 def main():
